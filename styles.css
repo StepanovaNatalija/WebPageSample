@@ -1,0 +1,74 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
+*
+{
+	margin: 10;
+	padding: 0;
+	font-family: 'Open Sans', serif;
+	color: #4c4f52; 
+}
+header
+{
+	background: #7083a1;
+	height: 120px;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+header img.logo
+{
+	height: 100px;
+	position: fixed;
+	top: 10px;
+}
+header div
+{
+	position: absolute;
+    bottom: 10px;
+    left: 520px;
+}
+header div a
+{
+	color: #4c4f52;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #75c4ef;
+	padding: 3px 9px;
+	margin-right: 20px;
+	
+}
+footer
+{
+	background: #7083a1;
+	height: 90px;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	color: #75c4ef;
+	vertical-align: center;
+}
+div#main
+{
+	margin-top: 140px;
+	margin-bottom: 120px;
+}
+div#main form input [type="text"],
+div#main text area
+{
+	width: 200px;
+	background: #75c4ef;
+	margin-bottom: 4px;
+	
+}
+input [type="submit"]
+{	
+	background-color: #75c4ef;
+}
+div#main img.hype
+{   
+	width: 300px;
+	left: 10px;
+}
